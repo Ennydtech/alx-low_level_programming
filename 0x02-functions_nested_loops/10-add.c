@@ -1,22 +1,13 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Make alphabet x10 times
- * Return: void
+ * add - Adds two value
+ * @n1: The first number to be computed
+ * @n2: The second number to be computed
+ * Return: Interger value
  */
 
-void print_alphabet_x10(void)
+int add(int n1, int n2)
 {
-	char c;
-	int i = 0;
-
-	while (i <= 9)
-	{
-	for (c = 'a'; c <= 'z'; c++)
-	{
-	_putchar(c);
-	}
-	_putchat('\n');
-	i++;
-	}
+	return (n1 + n2);
 }
